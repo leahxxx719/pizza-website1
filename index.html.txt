@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Leah's Pizza Place</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #fff5f5;
+    }
+
+    header {
+      background-color: #ff4d4d;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    nav {
+      background-color: #333;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #ff4d4d;
+    }
+
+    .container {
+      padding: 20px;
+    }
+
+    h2 {
+      color: #ff4d4d;
+    }
+
+    .menu {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+
+    .item {
+      background-color: white;
+      padding: 15px;
+      margin: 10px;
+      border-radius: 10px;
+      width: 250px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    ul {
+      list-style-type: square;
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Leah's Pizza Place 🍕</h1>
+  <p>The best pizza in town!</p>
+</header>
+
+<nav>
+  <a href="#">Home</a>
+  <a href="#menu">Menu</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<div class="container">
+  <h2 id="menu">Our Menu</h2>
+
+  <div class="menu">
+    <div class="item">
+      <h3>Pepperoni Pizza</h3>
+      <ul>
+        <li>Classic tomato sauce</li>
+        <li>Mozzarella cheese</li>
+        <li>Pepperoni slices</li>
+      </ul>
+    </div>
+
+    <div class="item">
+      <h3>Veggie Pizza</h3>
+      <ul>
+        <li>Bell peppers</li>
+        <li>Onions</li>
+        <li>Mushrooms</li>
+      </ul>
+    </div>
+
+    <div class="item">
+      <h3>BBQ Chicken Pizza</h3>
+      <ul>
+        <li>BBQ sauce</li>
+        <li>Grilled chicken</li>
+        <li>Red onions</li>
+      </ul>
+    </div>
+  </div>
+
+  <h2 id="contact">Contact Us</h2>
+  <p>Email: leahspizza@email.com</p>
+  <p>Phone: (123) 456-7890</p>
+</div>
+
+<footer>
+  <p>© 2026 Leah's Pizza Place</p>
+</footer>
+
+</body>
+</html>
